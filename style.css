@@ -1,0 +1,40 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+ background-color: rgb(255, 242, 225);
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+#qrbox{
+    border-radius: .5rem;
+    margin: 1rem auto;
+    height: 200px;
+    width: 230px;
+    border: solid;
+}
+#scanqr{
+    cursor: pointer;
+    margin: .5rem auto;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    padding: 0 2rem;
+    height: 40px;
+    font-size: 20px;
+    border-radius: .5rem;
+    border: none;
+    background: rgb(67, 202, 255);
+    color: white;
+}
+
+#result{
+    width: fit-content;
+    margin: 10px auto;
+    background-color: pink;
+    color: #222;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
