@@ -58,6 +58,7 @@ body {
   margin: 5px 1rem;
   width: 32px;
   height: 32px;
+  z-index: 2;
   /* -webkit-mask: url(icon/close.svg) no-repeat center; */
   /* mask: url(icon/close.svg) no-repeat center; */
 }
