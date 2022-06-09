@@ -133,7 +133,7 @@ body {
   z-index: 2;
   width: 100%;
   position: absolute;
-  top: 20px;
+  top: 25px;
   left: 50%;
   transform: translateX(-50%);
 }
