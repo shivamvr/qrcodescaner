@@ -12,6 +12,7 @@ button {
   cursor: pointer;
 }
 body {
+  background: #444;
   display: flex;
   flex-direction: column;
   background: #fff;
@@ -31,7 +32,6 @@ img,button,div{
   height: 100vh;
   overflow: hidden;
 }
-
 
 .overlay {
   position: absolute;
@@ -61,8 +61,6 @@ img,button,div{
   width: 32px;
   height: 32px;
   z-index: 2;
-  /* -webkit-mask: url(icon/close.svg) no-repeat center; */
-  /* mask: url(icon/close.svg) no-repeat center; */
 }
 
 .btns {
