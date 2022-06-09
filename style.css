@@ -21,14 +21,16 @@ body {
 img,button,div{
   -webkit-user-select: none; /* Safari */
   -ms-user-select: none; /* IE 10 and IE 11 */
-  user-select: none
+  user-select: none;
+  outline: none;
+
 }
 #qrbox {
   border-radius: 0.5rem;
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100vh;
+  min-height: 100vh;
   overflow: hidden;
 }
 
@@ -144,6 +146,9 @@ img,button,div{
 
 #result {
   z-index: 2;
+  user-select: text;
+  -webkit-user-select: text; 
+  -ms-user-select: text; 
   text-align: center;
   min-width: 255px;
   width: fit-content;
