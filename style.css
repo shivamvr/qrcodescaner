@@ -15,7 +15,6 @@ body {
   background: #444;
   display: flex;
   flex-direction: column;
-  background: #fff;
   overflow-x: hidden;
 }
 
