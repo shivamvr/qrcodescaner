@@ -17,17 +17,19 @@ body {
   background: #fff;
   overflow-x: hidden;
 }
+
+img,button,div{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none
+}
 #qrbox {
   border-radius: 0.5rem;
   margin: 0;
   padding: 0;
-  min-height: 100vh;
-  /* height: 600px; */
-  min-width: 100vw;
-  transform: scale(2);
   width: 100%;
+  height: 100vh;
   overflow: hidden;
-  border: solid 1px rgb(232, 232, 232);
 }
 
 
@@ -144,6 +146,7 @@ body {
 }
 
 #result {
+  z-index: 2;
   text-align: center;
   min-width: 255px;
   width: fit-content;
