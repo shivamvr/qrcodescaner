@@ -10,7 +10,7 @@
 html{
   width: 100%;
   overflow-x: hidden;
-  transform: translateY(-20px);
+  transform: translateY(-30px);
 }
 button {
   display: flex;
@@ -56,7 +56,7 @@ img,button,div{
   color: #333;
   z-index: 1;
   position: absolute;
-  top: 40px;
+  top: 45px;
   left: 0;
   width: 100%;
   display: flex;
