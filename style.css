@@ -7,6 +7,11 @@
 ::-webkit-scrollbar {
     display: none;
 }
+html{
+  width: 100%;
+  overflow-x: hidden;
+  transform: translateY(-20px);
+}
 button {
   display: flex;
   align-items: center;
@@ -175,6 +180,8 @@ img,button,div{
   margin: 10px auto;
   background-color: pink;
   color: #222;
-  padding: 1rem 2rem;
+  padding: 10px;
   border-radius: 1rem;
+  font-size: 12px;
+  word-break: break-all;
 }
