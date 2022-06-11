@@ -10,7 +10,7 @@
 html{
   width: 100%;
   overflow-x: hidden;
-  transform: translateY(-30px);
+  transform: translateY(-40px);
 }
 button {
   display: flex;
