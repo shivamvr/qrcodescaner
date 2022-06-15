@@ -189,21 +189,47 @@ input {
 }
 
 
-@media only screen and (max-width: 600px) {
-  body {
-    background: pink;
-    transform: scale(.8);
-  }
-}
 @media only screen and (max-width: 400px) {
   body {
-    background-color: green;
-    transform: scale(.9);
+    transform: scale(1) translateY(200px);
   }
-}
-@media only screen and (max-width: 340px) {
-  body {
-    background: orange;
-    transform: scale(1);
+  .qrContianer{
+    height: 230px;
+    margin: 0 auto;
+  }
+  #border{
+    width: 180px;
+    left: 49%;
+    top: 8px;
+  }
+  #qrcode{
+    display: none;
+    width: 144px;
+    top: 26px;
+    left: 49.5%;
+    border-radius: .7rem;
+  }
+  .qrContianer{
+    height: 190px;
+  }
+  .qrContianer>div{
+    left: 49.5%;
+    top: 98px;
+    overflow: hidden;
+    width: 138px;
+    height: 138px;
+  }
+
+  #qrcode canvas{
+    width: 90%;
+    border-radius: .5rem;
+    margin: 0 auto;
+    display: block;
+  }
+
+  textarea{
+    height: 100px !important;
+    width: 90%;
+    font-size: 24px !important;
   }
 }
