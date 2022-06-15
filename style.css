@@ -191,38 +191,43 @@ input {
 
 @media only screen and (max-width: 400px) {
   body {
-    transform: scale(1) translateY(200px);
+    transform: scale(1);
   }
   .qrContianer{
     height: 230px;
     margin: 0 auto;
   }
   #border{
-    width: 180px;
-    left: 49%;
-    top: 8px;
+    width: 250px;
+    left: 50%;
+    top: 250px;
+    transform: translateX(-50%);
   }
   #qrcode{
     display: none;
     width: 144px;
-    top: 26px;
+    top: 310px;
     left: 49.5%;
     border-radius: .7rem;
   }
   .qrContianer{
-    height: 190px;
+    height: auto;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 1.5rem;
   }
   .qrContianer>div{
-    left: 49.5%;
-    top: 98px;
+    left: 50.5%;
+    top: 350px;
     overflow: hidden;
-    width: 138px;
-    height: 138px;
+    width: 180px;
+    height: 180px;
+    border: solid 300px rgba(0, 0, 0, 0.3);
   }
-
+  
   #qrcode canvas{
     width: 90%;
-    border-radius: .5rem;
+    /* border-radius: 2rem; */
     margin: 0 auto;
     display: block;
   }
