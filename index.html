@@ -1,38 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-    <title>Qrcode Scaner</title>
-</head>
-<body>
-    <div class="options">
-        <img src="icon/close.svg" alt="">
-        <div>
-            <img id="flash" src="icon/flashligh.svg" alt="">
-            <img src="icon/qr_code.svg" alt="">
-            <img src="icon/options.svg" alt="">
-        </div>
-    </div>
-    <video id="qrbox"> </video>
-    <div class="overlay">
-        <div class="border"><img src="icon/border.png" alt=""></div>
-        <div id="clip"></div>
-        <div id="gallery"><img src="icon/image.svg" alt="">Upload from gallery</div>
-    </div>
-    <div class="btns">
-        <div>
-            <p id="result">.........</p> 
-        </div>
-        <div style="display: flex;">
-            <button id="scanqr"> scan </button>
-            <button id="copy">copy</button>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>Qrcode</title>
+  </head>
+  <body>
+    <div class="qrContianer">
+      <video id="qrbox"></video>
+      <div>
+        <img src="icon/transparent.png" alt="" />
+      </div>
     </div>
 
+    <div id="border">
+      <img src="icon/border.png" alt="" />
+    </div>
+
+    <div class="btns">
+      <button id="scanqr">scan</button>
+      <button id="genqr">generate</button>
+      <button id="copy">copy</button>
+      <button id="downloadBtn"> <a id="download" href="" download><img src="icon/download.svg" alt=""></a></button>
+    </div>
+    <div id="qrcode"></div>
+
+    <textarea data-gramm="false" spellcheck="false" id="result"></textarea>
+    <script src="fileSaver.js"></script>
+    <script src="qrcode.min.js"></script>
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
