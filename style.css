@@ -191,16 +191,19 @@ input {
 
 @media only screen and (max-width: 600px) {
   body {
-    transform: scale(.5);
+    background: pink;
+    transform: scale(.8);
   }
 }
 @media only screen and (max-width: 400px) {
   body {
+    background-color: green;
     transform: scale(.9);
   }
 }
 @media only screen and (max-width: 340px) {
   body {
+    background: orange;
     transform: scale(1);
   }
 }
